@@ -1,3 +1,3 @@
 # portfolio
-Project on HTML, CSS, JavaScript
-https://shreyasichowdhury.git
+Project on HTML, CSS, JavaScript <br>
+https://shreyasichowdhury.github.io/portfolio/
