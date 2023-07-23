@@ -1,2 +1,3 @@
 # portfolio
-My Portfolio Website
+Project on HTML, CSS, JavaScript
+https://shreyasichowdhury.git
