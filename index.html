@@ -35,7 +35,8 @@
 
     <section class="home" id="home">
         <div class="home-content">
-            <h1>Hi, I am<br><span>Shreyasi Chowdhury</span></h1>
+            <h1>Hi, I am<br><span>Shreyasi Chowdhury</span></span>
+            </h1>
             <div class="text-animate">
                 <h3>Software Engineer</h3>
             </div>
@@ -54,9 +55,7 @@
             <a href="https://www.facebook.com/sweetu.shreyu" target="_blank" rel="noopener noreferrer"><i class='bx bxl-facebook'></i></a>
         </div>
 
-        <div class="home-imgHover">
-
-        </div>
+        <div class="home-imgHover"></div>
     </section>
 
     <!-- about section design -->
@@ -64,6 +63,7 @@
     <section class="about" id="about">
         <h2 class="heading">About<span> Me</span></h2>
         <div class="about-img">
+
             <img src="img/bg.jpg" alt="">
         </div>
 
@@ -239,40 +239,42 @@
     <section class="contact" id="contact">
         <h2 class="heading">Contact <span>Me</span></h2>
 
-        <form action="#">
+        <form action="#" name="submit-to-google-sheet">
 
             <div class="input-box">
                 <div class="input-field">
-                    <input type="text" placeholder="Full Name" required="required">
+                    <input type="text" name="name" placeholder="Full Name" required="required">
                     <span class="focus"></span>
                 </div>
 
                 <div class="input-field">
-                    <input type="text" placeholder="Organisation" required="required">
+                    <input type="text" name="org" placeholder="Organisation" required="required">
                     <span class="focus"></span>
                 </div>
             </div>
 
             <div class="input-box">
                 <div class="input-field">
-                    <input type="number" placeholder="Mobile Number" required="required">
+                    <input type="number" name="number" placeholder="Mobile Number" required="required">
                     <span class="focus"></span>
                 </div>
 
                 <div class="input-field">
-                    <input type="email" placeholder="Email Address" required="required">
+                    <input type="email" name="email" placeholder="Email Address" required="required">
                     <span class="focus"></span>
                 </div>
             </div>
 
             <div class="textarea-field">
-                <textarea name="" id="" cols="30" rows="10" placeholder="Your message" required="required"></textarea>
+                <textarea name="message" id="" cols="30" rows="10" placeholder="Your message" required="required"></textarea>
                 <span class="focus"></span>
             </div>
 
             <div class="btn-box btns" id="final-btn">
                 <button type="submit" class="btn">Submit</button>
             </div>
+
+            <span id="success"></span>
 
         </form>
 
