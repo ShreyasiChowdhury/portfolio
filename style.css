@@ -42,7 +42,7 @@ body {
 }
 
 .header.sticky {
-    background: var(--bg-color);
+    background: #081b294e;
 }
 
 .logo {
